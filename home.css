@@ -1,0 +1,100 @@
+#container{
+    background-color:rgb(255, 207, 112);
+    padding: 30px;
+    justify-content: center;
+   
+}
+
+.logo{
+    width: 50;
+    height: 40px;
+    font-size: 20px;
+}
+#info{
+    gap: 100px;
+    display: flex;
+    text-align: center;
+    border:solid 1px ;
+    padding-left: 420px;
+    height: 80px;
+    text-decoration: none;
+    background-color:rgb(254, 213, 147);
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ infoa{
+    width: 800px;
+    height: 190px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid 1px;
+    background-color:rgb(254, 213, 147);
+    padding: 20px;
+
+    
+}
+#body{
+    justify-content: center;
+    padding-left: 450px;
+    padding-top: 10px;
+}
+.text{
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px;
+    background-color: black;
+    color: rgb(255, 207, 112);
+    line-height: 30px;
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    #container{
+        background-color:rgb(255, 207, 112);
+        padding: 0px;
+        justify-content: center;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .mentorimg{
+        width: 160px;
+        height: 130px;
+    }
+    #body{
+        justify-content: center;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .infoa{
+        /* width: 100px; */
+        /* height: 90px; */
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 3px;
+        
+    }
+    #info{
+        gap: 6px;
+         
+        display: flex;
+        padding-left: 0px;
+        margin-top: 20px;  
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: solid 1px;
+
+    }
+}

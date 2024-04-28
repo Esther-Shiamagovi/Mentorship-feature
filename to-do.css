@@ -1,0 +1,153 @@
+#container{
+    background-color:rgb(255, 207, 112);
+    height: 800px;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 50px;
+    line-height: 30px;
+}
+#info{
+    gap: 20px;
+    display: flex;
+    text-align: center;
+    border:solid 1px ;
+    padding-left: 420px;
+    height: 80px;
+    text-decoration: none;
+    background-color:rgb(254, 213, 147);
+}
+#text h1{
+text-align: center;
+}
+#p{
+    font-size: 20px;
+}
+#text{
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 20px;
+     
+}
+.button{
+    border-radius: 20px;
+    height: 60px;
+    width: 190px;
+    color:white;
+    background-color: black;
+    text-decoration: none; 
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    width: 300px;
+}
+#to-do{
+    display: flex;
+    gap: 90px;
+}
+#todo h1{
+    padding-top:80px;
+} 
+#home{
+    padding-left: 200px;
+}
+#image{
+    width: 150px;
+    height: 160px;
+}
+#container-text p{
+    font-size:10px ;
+}
+#container-text p{
+    font-size:10px ;  
+}
+label{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 50;
+        height: 40px;
+        font-size: 20px;
+    }
+    #info{
+        gap: 100px;
+        display: flex;
+        text-align: center;
+        border:solid 1px ;
+        padding-left: 420px;
+        height: 80px;
+        text-decoration: none;
+        background-color:rgb(254, 213, 147);
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    label{
+        font-size: 10px;
+    }
+    #to-do{
+        display: flex;
+        gap: 0px;
+    }
+    #container-text p{
+        font-size:1px ;  
+
+    }
+    
+    #container{
+        background-color:rgb(255, 207, 112);
+        height: 400px;
+        width: 250px;
+        border: solid 2px;
+        border-radius: 20px;
+        padding: 50px;
+        line-height: 30px;
+    }
+    #text{
+        padding-left: 3px;
+        line-height: 20px;
+        font-size: 10px;
+        
+    }
+    #image img{
+        width: 90px;
+        height: 90px;
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+        width: 200px;
+    }
+    #home{
+        padding-left: 0px;
+
+    }
+    .image{
+        width: 50px;
+        height: 60px;
+    }
+    #todo h1{
+        padding-top:20px;
+    }
+    #itemInput{
+        width: 70px;
+        padding-left: 0px;
+    } 
+    .button{
+        border-radius: 20px;
+        height: 60px;
+        width: 90px;
+        color:white;
+        background-color: black;
+        text-decoration: none; 
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+        width: 300px;
+    }
+    
+}

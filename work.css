@@ -1,0 +1,109 @@
+/* #main{
+  height: 900px;
+  width: 1300px;
+  border: solid ;
+  padding-left:160px ;
+
+} */
+body {
+    background:rgb(255, 207, 112);
+    ;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    /* font-family: 'Geologica', sans-serif; */
+  }
+  
+  .container-text {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .logo{
+    width: 40;
+    height: 40px;
+    font-size: 20px;
+}
+#info{
+    gap: 200px;
+    display: flex;
+    border:solid 1px ;
+    padding-left: 20px;
+    height: 80px;
+    text-decoration: none;
+    background-color:rgb(254, 213, 147); 
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+  h1 {
+      color: #fff;
+      font-size: 45px;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+      padding: 30px;
+      margin-bottom: 230px;
+    }
+    
+    button {
+      padding: 30px 40px;
+      background-color:black ;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 35px;
+    }
+    
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 40px;
+        border-bottom: 1px solid white;
+      padding-bottom: 20px;
+    }
+    
+    .delete-btn {
+      background-color:black;
+      color: white;
+      padding: 25px 30px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #to-do{
+      font-size: 80px;
+      color: white;
+    }
+    button a{
+      color: white;
+      text-decoration: none;
+    
+    }
+    @media only screen and (max-width: 768px){
+      #info{
+        gap: 20px;
+        display: flex;
+        border:solid 1px ;
+        padding-left: 20px;
+        height: 80px;
+        text-decoration: none;
+    }
+    }
+  

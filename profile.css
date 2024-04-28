@@ -1,0 +1,127 @@
+#container{
+background-color:rgb(255, 207, 112);
+border: solid 2px;
+margin: 0px; 
+justify-content: center; 
+width: 1100px; 
+height: 1120;
+margin-left: 320px; 
+height: 900px;  
+}
+.logo{
+    width: 50;
+    height: 40px;
+    font-size: 20px;
+}
+#info{
+    gap: 60px;
+    display: flex;
+    border:solid 1px ;
+    padding-left: 120px;
+    height: 80px;
+    text-decoration: none;
+    background-color:rgb(254, 213, 147);
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#profile{
+padding-left: 250px;
+}
+.logo{
+    justify-content: center;
+}
+.align{
+    padding-left: 50px;
+    width: 70px;
+}
+#identity{
+    padding-left: 300px;
+    display: flex;
+}
+.image{
+    border:solid 1px ;
+    border-radius: 50px;
+    /* background-color: rgb(198, 155, 110); */
+    background-color: rgb(249, 162, 59);
+    width: 300px;
+    height: 250px;
+}
+
+#identify{
+    display: flex;
+    gap: 70px;
+    padding-left: 230px;
+    font-size: 20px;
+}
+.Info{
+    font-weight: 130px;
+
+}
+.button {
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+@media only screen and (max-width: 768px){
+    #container{
+        background-color:rgb(255, 207, 112);
+        border-radius: 30px;
+        border: solid 2px;
+        margin: 0px; 
+        justify-content: center; 
+        width: 260px; 
+        margin-left: 0px;  
+
+        }  
+        #profile{
+            padding-left: 0px;
+            width: 20px;
+            margin: 0px;
+            text-align: center;
+            
+        
+            
+            } 
+            .image{
+                border:solid 1px ;
+                border-radius: 50px;
+                /* background-color: rgb(198, 155, 110); */
+                background-color: rgb(209, 128, 29);
+                 width: 180px;
+                 height: 180px;
+                 padding-left: 0px;
+            }
+        
+        #identity{
+            padding-left: 20px;
+            display: flex;
+        }
+        #identify{
+            display: flex;
+            gap: 20px;
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        .align{
+            width: 80px;
+            height: 90px;
+
+        }
+        #profile h1{
+           font-size: 20px; 
+           
+        }
+}

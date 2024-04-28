@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="work.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <title>To Do List</title>
+</head>
+<body>
+    
+
+<div id="main">
+    <div id="info">
+        <img src="image/logo.png" alt="" class="logo" />
+        <a class="infoa " href="profile.html">Mentor's profile</a>
+        <a class="infoa " href="goals.html">Goals</a>
+        <a class="infoa "href="to-do-list.html">to-do-list</a>
+        <a class="infoa" href="work.html">Achievements</a>
+        <a class="infoa" href="home.html">Home</a>
+        </div>
+    <div id="background">
+         <div class="container-text">
+        <h1 id="to-do">Achievement</h1>
+        <p>"Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it." - Bruce Lee</p>
+     <p>Write down your wins to look back at your succes.</p>
+        <input type="text" id="itemInput" placeholder="Add a task here">
+        <button onclick="addItem()" class="task">Add your task</button>
+        <ul id="itemList"></ul>
+      </div>
+
+    </div>
+
+
+      <script>
+        const itemInput = document.getElementById("itemInput");
+    const itemList = document.getElementById("itemList");
+    
+    function addItem() {
+        const newItem = itemInput.value.trim();
+    
+        if (newItem !== "") {
+            const li = document.createElement("li");
+            const itemText = document.createElement("span");
+            itemText.textContent = newItem;
+            const deleteBtn = document.createElement("button");
+            deleteBtn.textContent = "Remove";
+            deleteBtn.className = "delete-btn";
+    
+            deleteBtn.addEventListener("click", () => {
+                li.remove();
+            });
+    
+            li.appendChild(itemText);
+            li.appendChild(deleteBtn);
+            itemList.appendChild(li);
+    
+            itemInput.value = "";
+        }
+    }
+    </script>
+   
+</div>
+
+</body>
+</html>
